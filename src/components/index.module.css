@@ -1,0 +1,78 @@
+body {
+    background-image: url('../assets/Image.png');
+    background-repeat: no-repeat;
+    background-position: 90% 10px;
+}
+
+.hader {
+    max-width: 1110px;
+    align-items: center;
+    margin: 30px auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+.about a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    transition: all 0.5s;
+    margin-right: 50px;
+}
+
+.url:hover {
+    color: bisque;
+    text-decoration:underline;
+}
+
+.button {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: #40DDFF;
+    border: 1px solid #40DDFF;
+    color: #ffffff;
+}
+
+.hero {
+    max-width: 1110px;
+    margin: 108px auto 0px auto;
+}
+
+.hero h1{
+    color: white;
+    font-size: 60px;
+}
+
+.hero p {
+    color: rgb(183, 183, 183);
+    margin-top: 15px;
+}
+
+.mainbtn {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 60px;
+}
+
+.mainbtn:hover {
+    background-color: #40DDFF;
+    border: 1px solid #40DDFF;
+    color: #ffffff;
+}
